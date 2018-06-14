@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>EMPLOYEE-RESTFUL-SERVICES</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Employee Restful Services</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
