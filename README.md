@@ -17,7 +17,7 @@ Applying full Restful services on Employee Information System
   1  -  curl -X POST http://localhost:8080/api-token-auth/ --data  "username=employees&password=employees"
 		
 
-  2  -  curl  http://localhost:8080/api/user/me/	-H 'Authorization: Token 2a3d1af2f3f6d1cddaa3012c1c465fcbdffa3678' 
+  2  -  curl  http://localhost:8080/api/user/me/	-H 'Authorization: Token 6yGuaKhPFu0MhxNYc2dnFshZQwrWYG' 
   
   
   3  -  curl  http://localhost:8080/api/employees/	
