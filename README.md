@@ -14,11 +14,10 @@ Applying full Restful services on Employee Information System
   mvn spring-boot:run 
   
   
-  1  -  curl -X POST http://localhost:8080/api-token-auth/ --data 
-        "username=employees&password=employees"
+  1  -  curl -X POST http://localhost:8080/api-token-auth/ --data  "username=employees&password=employees"
 		
 
-  2  -  curl  http://localhost:8080/api/employees/	
+  2  -  curl  http://localhost:8080/api/user/me/	-H 'Authorization: Token 2a3d1af2f3f6d1cddaa3012c1c465fcbdffa3678' 
   
   
   3  -  curl  http://localhost:8080/api/employees/	
@@ -27,4 +26,4 @@ Applying full Restful services on Employee Information System
   4  -  curl  http://localhost:8080/employees?firstName=ar&gender=MALE'
   
   
-  5  -  curl  http://localhost:8080/api/employees/user/
+  5  -  curl  http://localhost:8080/api/employees/me/
